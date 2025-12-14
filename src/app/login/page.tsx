@@ -40,20 +40,6 @@ export default function LoginPage() {
               Google 계정으로 로그인
             </span>
           </button>
-
-          <button
-            onClick={loginWithGitHub}
-            className="w-full border border-gray-300 rounded-lg py-2 flex items-center justify-center gap-2 hover:bg-gray-50 transition"
-          >
-            <img
-              src="https://www.svgrepo.com/show/512317/github-142.svg"
-              alt="github"
-              className="w-5 h-5"
-            />
-            <span className="text-sm font-medium text-gray-700">
-              GitHub 계정으로 로그인
-            </span>
-          </button>
         </div>
       </div>
     </div>
